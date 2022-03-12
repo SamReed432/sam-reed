@@ -197,7 +197,8 @@ body {
 	border-radius: 200px;
 	height: 100px;
 	margin-left: auto;
-	background-color: white;
+	border: rgba(9,82,86,0.12) solid 5px;
+	border-radius: 20px;
 }
 
 .social .thumbnail {
