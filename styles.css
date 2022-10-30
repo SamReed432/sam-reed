@@ -334,6 +334,7 @@ header2 p {
 	text-align: center;
 	color: #FFFFFF;
 	letter-spacing: 2px;
+	margin-left: -4%;
 }
 
 #nav2 {
@@ -345,6 +346,8 @@ header2 p {
 	display: none;
 	animation: ham 2s;
 	z-index: 20;
+	margin-left: 30%;
+	margin-right: 30%;
 	
 }
 
@@ -364,6 +367,7 @@ header2 p {
 #nav2 li {
 	margin-bottom: 10px;
 	padding: 10px;
+	margin-right: 13%;
 }
 
 #nav2 li a{
