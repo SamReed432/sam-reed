@@ -27,6 +27,38 @@
       </ul>
     </nav>
   </header>
+	
+	<header2>
+		<p>Sam-Reed.Com</p>
+	 <img src="hamburger.png" id="hamburger">
+		
+	</header2>
+
+	<ul id="nav2">
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="about.html">DJ SAM</a></li>
+        <li><a href="about.html">PORTFOLIO</a></li>
+        <li><a href="about.html">SERVICES</a></li>
+        <li><a href="https://onsamsmind.wixsite.com/onsamsmind" target="_blank">BLOG</a></li>
+        <li><a href="about.html">CONTACT</a></li>
+      </ul>
+
+	<script language="javascript">
+		
+		var showed = false;
+		
+		document.getElementById("hamburger").addEventListener("click", function(){
+			if (showed == false) {
+				document.getElementById("nav2").style.display = "block";
+				showed = true;
+			} else {
+				document.getElementById("nav2").style.display = "none";
+				showed = false;
+			}
+		})
+	</script>
+	
+	
   <div id="title-name">
 	  <div id="reed">Reed</div>
 	  <div id="sam">Sam</div>
@@ -43,7 +75,7 @@
 	
 <! Content Below Main 2 >
 	<div id="secondary">
-		<a class="vertStack" href="Resume.pdf.docx"><img src="Resume2.jpg" class="img2">Click Here to See My Resume</a>
+		<a class="vertStack" href="Resume.pdf" target="_blank"><img src="Resume2.jpg" class="img2">Click Here to See My Resume</a>
 		<a class="vertStack" href="projects.html"><img src="project.png" class="img2">See some of my Projects</a>
 		<a class="vertStack" href="skills.html"><img src="skills.png" class="img2">Skills and Accomplishments</a>
 		<a class="vertStack" href="lightShow.html"><img src="light.png" class="img2">Learn More abnout the Reed Family Light Show</a>
@@ -51,7 +83,7 @@
 	
 	
 	
-	<! Social Icons and Footer >
+	<!-- Social Icons and Footer -->
 <div class="social">
 	  <a href="https://www.facebook.com/reedfamilylightshow" target="_blank" class="social_icon"><img src="facebook.png" width="50" alt="" class="thumbnail"/></a>
 	  <a href="https://www.linkedin.com/in/sam-reed12" target="_blank" class="social_icon"><img src="linkedInLogo.png" width="50" alt="" class="thumbnail"/></a>
