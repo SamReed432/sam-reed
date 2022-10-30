@@ -1,4 +1,14 @@
 @charset "UTF-8";
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+}
+
+
 .container {
 	background-color: rgba(104,111,130,0.5);
 	width: 100%;
@@ -36,7 +46,7 @@ nav li {
 nav li, nav a {
 	list-style: none;
 	float: left;
-	font-family: "Source Sans Pro";
+	font-family: 'Varela Round';
 	font-weight: normal;
 	color: #FFFFFF;
 	text-align: center;
@@ -55,10 +65,7 @@ nav ul li:hover, nav li a:hover {
 
 .title {
 	font-weight: bold;
-	font-style: normal;
-	font-family: 'Acme', sans-serif;
-	font-family: 'Kanit', sans-serif;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	text-align: center;
 	color: #FFFFFF;
 	font-size: 30px;
@@ -113,7 +120,7 @@ header {
 }
 
 #reed {
-	margin-top: 15%;
+	margin-top: 20%;
 	margin-left: 30%;
 	color: rgba(131,131,131,1.00);
 	z-index: 10;
@@ -160,7 +167,7 @@ section {
 	padding: 5%;
 	animation-name: head_delay_up;
 	animation-duration: 4s;
-	margin-top: -8%;
+	
 }
 
 .container .left_article h3 {
@@ -168,7 +175,8 @@ section {
 	font-weight: bold;
 	font-size: 5vw;
 	color:white;
-	padding-left: 10%
+	padding-left: 10%;
+	font-family: 'Varela Round', sans-serif;
 	
 }
 .container .left_article p {
@@ -177,7 +185,9 @@ section {
 	color: white ;
 	font-size: 2.5vw;
 	padding-left: 10%;
+	padding-right: 10%;
 	padding-top: 0%;
+	font-family: 'Varela Round', sans-serif;
 }
 
 .left_article {
@@ -202,12 +212,45 @@ spacer {
 	border-radius: 10%;
 }
 
-body {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
+/* Secondary Content */
+
+#secondary {
+	display: flex;
+	flex-direction: row;
+	width: 96%;
+	flex-grow: 5;
+	justify-content: center;
+	gap: 2%;
+	flex-basis: auto;
+	padding: 2%;
+}
+
+.vertStack {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: rgba(29,63,101,0.30) solid 0.7vw;
+	border-radius: 20px;
+	padding: 3%;
+	width: 20%;
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	transition: background-color 0.5s;
+	font-size: 1.7vw;
+}
+
+.vertStack:hover {
+	background-color: rgba(118,160,175,0.4);
+}
+
+.img2 {
+	width: 10vw;
+	height: 10vw;
+	padding-bottom: 7%;
+	
 }
 
 
