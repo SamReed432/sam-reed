@@ -75,11 +75,17 @@
 	margin: 2%;
 }
 
+#streamPic {
+	width: 40%;
+	border-radius: 10px;
+	margin: 2%;
+}
+
 .img2 {
 	border-radius: 10px;
 }
 
-.item1, .item2 {
+.item1, .item2, .item3 {
 	display: flex;
 	flex-direction: row;
 	flex-basis: auto;
@@ -108,4 +114,8 @@ name {
 
 .item2 {
 	background-color:rgba(140,144,160,0.63);
+}
+
+.item3 {
+	background-color: rgba(0,48,101,0.30);
 }
