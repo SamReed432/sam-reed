@@ -51,13 +51,15 @@
 /* VIDEO SECTION */
 #featured_video {
 	margin-top: 10%;
+	display:flex;
+	justify-content: center;
+	
 }
 
 #video {
 	border: medium solid rgba(14,98,191,0.64);
 	border-radius: 25px;
 	margin:5%;
-	width: 90%;
 }
 
 
