@@ -119,3 +119,22 @@ name {
 .item3 {
 	background-color: rgba(0,48,101,0.30);
 }
+
+#other {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2vw;
+	display: block;
+	text-align: center;
+	font-weight: 50;
+	
+}
+
+@media (max-width:750px){
+	.item1, .item2, .item3 {
+		flex-direction: column;
+		font-size: 3vw;
+	}
+	#other {
+		font-size: 4vw;
+	}
+}
